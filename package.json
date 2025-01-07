@@ -46,6 +46,15 @@
     "vite-tsconfig-paths": "^4.2.1",
     "@types/bun": "latest"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "*.ts": "npx tslint"
+  },
   "engines": {
     "node": ">=20.0.0"
   },
