@@ -158,14 +158,14 @@ const meta = () => {
   ];
 };
 function Index() {
-  return /* @__PURE__ */ jsx("div", { className: "flex h-screen items-center justify-center" });
+  return /* @__PURE__ */ jsx("div", { className: "flex h-screen items-center justify-center", children: "testing works" });
 }
 const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: Index,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-CHpbgU94.js", "imports": ["/assets/jsx-runtime-D5FwP9M8.js", "/assets/components-UFyj0GOY.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/root-BQAsFeXm.js", "imports": ["/assets/jsx-runtime-D5FwP9M8.js", "/assets/components-UFyj0GOY.js"], "css": ["/assets/root-CNNqa6sj.css"] }, "routes/_index": { "id": "routes/_index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/_index-DQr274_B.js", "imports": ["/assets/jsx-runtime-D5FwP9M8.js"], "css": [] } }, "url": "/assets/manifest-672d5038.js", "version": "672d5038" };
+const serverManifest = { "entry": { "module": "/assets/entry.client-CHpbgU94.js", "imports": ["/assets/jsx-runtime-D5FwP9M8.js", "/assets/components-UFyj0GOY.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/root-BQAsFeXm.js", "imports": ["/assets/jsx-runtime-D5FwP9M8.js", "/assets/components-UFyj0GOY.js"], "css": ["/assets/root-CNNqa6sj.css"] }, "routes/_index": { "id": "routes/_index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/_index-COF20eT3.js", "imports": ["/assets/jsx-runtime-D5FwP9M8.js"], "css": [] } }, "url": "/assets/manifest-6727a675.js", "version": "6727a675" };
 const mode = "production";
 const assetsBuildDirectory = "build/client";
 const basename = "/";

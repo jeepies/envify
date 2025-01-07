@@ -1,0 +1,1 @@
+import{j as e}from"./jsx-runtime-D5FwP9M8.js";const n=()=>[{title:"envify"},{name:"description",content:"Keep your secrets"}];function r(){return e.jsx("div",{className:"flex h-screen items-center justify-center",children:"testing works"})}export{r as default,n as meta};
