@@ -27,6 +27,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@happy-dom/global-registrator": "^16.3.0",
     "@remix-run/dev": "^2.15.2",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
